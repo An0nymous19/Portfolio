@@ -1,0 +1,276 @@
+.tete {
+	width: 100%;
+	top: 0;
+	position: fixed;
+	background-color: white;
+	text-align: center;
+}
+
+
+.ul {
+	justify-content: center;
+	list-style: none;
+	display: flex;
+}
+
+.liste {
+	list-style-position: inside;
+}
+
+.navigation {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	font-size: 20px;
+	font-family : "Courier New";
+	color : #0000ff;
+}
+
+.navigation2 {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	font-size: 20px;
+	font-family : "Courier New";
+	color : #0000ff;
+    margin-left: 150%;
+}
+
+.banniere {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	background-image: url('img/reseautel.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+
+.titre {
+	font-size: 60px;
+	font-family : "Courier New";
+	color : white;
+	text-decoration: underline;
+}
+
+.sous-titre {
+	text-align: center;
+	margin-top: 10%;
+	font-size: 40px;
+	font-family : "Courier New";
+	color : black;
+}
+
+.titre2 {
+	font-size: 50px;
+	font-family : "Courier New";
+	text-decoration: underline;
+	color : black;
+}
+
+.titre2_2 {
+	font-size: 50px;
+	font-family : "Courier New";
+	text-decoration: underline;
+	color : white;
+}
+
+.sous-titre1_1 {
+	font-size: 30px;
+	font-family : "Courier New";
+	color : black;
+	text-align: center;
+	margin-right: 20%;
+}
+
+.sous-titre2 {
+	font-size: 30px;
+	font-family : "Courier New";
+	color : black;
+	text-align: center;
+}
+
+.sous-titre2_2 {
+	font-size: 30px;
+	font-family : "Courier New";
+	color : blue;
+	text-align: center;
+}
+
+
+.texte {
+	font-size: 20px;
+	font-family : "Courier New";
+	color: #0098FF;
+}
+
+.texte2 {
+	font-size: 20px;
+	font-family : "Calibri";
+	color: white;
+}
+
+.texte3 {
+	font-size: 20px;
+	font-family : "Calibri";
+	color: #0066FF;
+}
+
+.texte4 {
+	font-size: 20px;
+	font-family : "Courier New";
+	color: black;
+}
+
+.apropos {
+	display: flex;
+	flex-direction: column;
+	height: 125vh;
+	width: 100%;
+    text-align : center;
+	/*background: linear-gradient(#0074FF, #0098FF);*/
+	background-color: white;
+	color: white;
+}
+
+
+.presentation {
+	display: flex;
+	margin-left: 17%;
+}
+
+
+.image {
+	width: 150px;
+	width: 180px; /* Ajustez la largeur et la hauteur du conteneur selon vos besoins */
+    height: 300px;
+    overflow: hidden; /* Pour masquer les parties de l'image qui dépassent du conteneur */
+    border-radius: 50%;
+}
+
+.competences {
+	height: 145vh;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(#0098FF, #00B7EF);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.passe-temps {
+	height: 135vh;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(#00B7EF, #00EA84);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.projets {
+	height: 280vh;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.mot-en-couleur {
+	color: blue;
+}
+
+.ligne {
+	display: flex;
+}
+
+.image2 {
+	width: 300px;
+}
+.image3 {
+	width: 320px;
+}
+.image4 {
+	width: 340px;
+}
+
+.reseautel {
+	margin: auto;
+}
+
+.reseau {
+	margin: auto;
+}
+
+.signal {
+	margin: auto;
+}
+
+.fibre {
+	margin: auto;
+}
+
+.site {
+	margin: auto;
+}
+
+.appli {
+	margin: auto;
+}
+
+
+.pied {
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	position: fixed;
+	background-color: white;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  .image {
+	display: block;
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+  }
+  
+  .container:hover .overlay {
+	opacity: 1;
+  }
+  
+  .text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+  }
